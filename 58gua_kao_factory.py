@@ -62,8 +62,9 @@ def generate_mobile_number(idx=0):
     return res
 
 
-if __name__ == "__main__":
-    with open("configs/58gua_kao.json", encoding="utf-8") as fp:
+def main():
+    project_name = "58gua_kao"
+    with open("configs/%s.json" % project_name, encoding="utf-8") as fp:
         demo_config = json.load(fp)
 
     demo_factory = CaptchaFactory(char_custom_fns=[char_custom_fn], bg_custom_fns=[bg_custom_fn], **demo_config)
@@ -73,7 +74,11 @@ if __name__ == "__main__":
         text = generate_mobile_number(index)
 
         captcha = demo_factory.generate_captcha(text=text)
-        captcha.save("output/58gua_kao/" + captcha.text + ".jpg")
+        captcha.save("output/%s/%s.jpg" % (project_name, captcha.text))
         print(captcha.text, captcha.num)
 
         index -= 1
+
+
+if __name__ == "__main__":
+    main()
