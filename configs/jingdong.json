@@ -1,0 +1,47 @@
+{
+  "texts": [
+    "abcdefjhigklmnporstuvwxyzABCDEFGHIJKLMNPORSTUVWXYZ123456789"
+  ],
+  "fonts": [
+    "resources/jingdong_font/ALKATIP_Elipbe.ttf"
+  ],
+  "sizes": [
+    24,
+    26
+  ],
+  "colors": [
+    "0x301878",
+    "0x184830",
+    "0x606030",
+    "0x891c39",
+    "0x603018",
+    "0x601878",
+    "0x303078",
+    "0x186018",
+    "0x303090",
+    "0x304860",
+    "0x306048",
+    "0x304848",
+    "0x481860",
+    "0x186030",
+    "0x181848",
+    "0x487818"
+  ],
+  "bgs": [
+    "0xfef6f6",
+    "0xfefdf9"
+  ],
+  "rotate": 10,
+  "num": 4,
+  "dot": 0,
+  "curve": 0,
+  "width": 85,
+  "height": 26,
+  "offset_ver": 5,
+  "offset_hor": 4,
+  "char_tran": [
+    5.97,
+    3.14,
+    9
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "char": "拉",
+    "font": "resources/font/STCAIYUN.TTF",
+    "size": 50,
+    "color": "0x184830",
+    "rotate": -15,
+    "position_x": 30,
+    "position_y": 130
+  },
+  {
+    "char": "枯",
+    "font": "resources/font/STCAIYUN.TTF",
+    "size": 50,
+    "color": "0x184830",
+    "rotate": -30,
+    "position_x": 40,
+    "position_y": 330,
+    "char_tran": "",
+    "fn": ""
+  },
+  {
+    "char": "折",
+    "font": "resources/font/STCAIYUN.TTF",
+    "size": 50,
+    "color": "0xeeeeee",
+    "rotate": 6,
+    "position_x": 30,
+    "position_y": 210,
+    "custom_fn": ""
+  },
+  {
+    "char": "朽",
+    "font": "resources/font/STCAIYUN.TTF",
+    "size": 50,
+    "color": "0x184830",
+    "rotate": -30,
+    "position_x": 170,
+    "position_y": 30
+  }
+]
