@@ -1,7 +1,21 @@
-# any-captcha
+  # any-captcha
 generate any type of captcha with one config.
 ## 功能简述
-  通过简单的配置，可以生成大部分类型的验证码，旨在解决机器学习训练样本的难以获取的问题。
+  通过简单的配置，可以生成大部分类型的验证码，旨在解决机器学习训练样本难以获取的问题，降低训练样本的获取成本。  
+  温馨提示，搭配以下在线工具使用效率更佳：  
+  字体查找：http://www.qiuziti.com/  
+  颜色查找：http://tools.jb51.net/color/colorpicker  
+  
+## 目录结构  
+any-captcha
+> configs: 存放配置文件  
+> model: 项目源码  
+> output: 默认验证码保存目录  
+> resources
+>>  background: 默认背景图片目录   
+>>  corpus: 默认字符文本目录   
+>>  font: 默认字体目录  
+>>  markdown: md需要的资源
 ## CONFIG参数说明
 * <code>texts</code>:  
   类型：字符串数组  
@@ -71,18 +85,44 @@ generate any type of captcha with one config.
   说明：验证码中字符可选的透明度集合，单个元素取值范围[0.0,10.0]  
 
 注：以上参数都可以被<code>CaptchaFactory.generate_captcha()</code>方法中的相关参数覆盖，即可以动态指定每一个参数，适用于需要遍历所有字符的情况。
-## 目录结构  
-any-captcha
-> configs: 存放配置文件  
-> model: 项目源码  
-> output: 默认验证码保存目录  
-> resources
->>  background: 默认背景图片目录   
->>  corpus: 默认字符文本目录   
->>  font: 默认字体目录   
+   
 
 ## 样例代码
-目标验证码：http://www.58guakao.com/user/487549.html
+* 目标验证码：http://www.58guakao.com/user/487549.html
+* config:
+```json
+{
+  "texts": [
+    "0123456789"
+  ],
+  "fonts": [
+    "resources/font/CalibriL.ttf"
+  ],
+  "sizes": [
+    28
+  ],
+  "colors": [
+    "0xff0000"
+  ],
+  "bgs": [
+    "0xfef6f6",
+    "0xfefdf9"
+  ],
+  "rotate": 0,
+  "num": 11,
+  "dot": 0,
+  "curve": 0,
+  "width": 167,
+  "height": 35,
+  "align": 1,
+  "offset_ver": 0,
+  "offset_hor": 0,
+  "char_tran": [
+    5.97
+  ]
+}
+```
+* main code:
 ```python
 def main():
     project_name = "58gua_kao"
