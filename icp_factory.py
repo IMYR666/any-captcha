@@ -23,7 +23,8 @@ def bg_custom_fn(bg):
     return bg
 
 
-if __name__ == "__main__":
+def main():
+    project_name = "icp"
     with open("configs/icp.json", encoding="utf-8") as fp:
         demo_config = json.load(fp)
 
@@ -35,7 +36,11 @@ if __name__ == "__main__":
     while number:
         # captcha = demo_factory.generate_captcha(specific_chars=specific)
         captcha = demo_factory.generate_captcha()
-        captcha.save("output/icp/" + captcha.text + ".jpg")
+        captcha.save("output/%s/%s.jpg" % (project_name, captcha.text))
         print(captcha.text, captcha.num)
 
         number -= 1
+
+
+if __name__ == "__main__":
+    main()
