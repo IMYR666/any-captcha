@@ -1,0 +1,57 @@
+{
+  "texts": [
+    "ABCDEFGHIJKLMNOPORSTUVWXYZ0123456789"
+  ],
+  "fonts": [
+    "resources/font/ALKATIP_Elipbe_Tom.ttf"
+  ],
+  "sizes": [
+    38,
+    40,
+    42
+  ],
+  "colors": [
+    "0x301878",
+    "0x184830",
+    "0x606030",
+    "0x603018",
+    "0x601878",
+    "0x303078",
+    "0x303030",
+    "0x186018",
+    "0x303090",
+    "0x304860",
+    "0x306048",
+    "0x304848",
+    "0x481860",
+    "0x181818",
+    "0x186030",
+    "0x606048",
+    "0x181848",
+    "0x487818",
+    "0x607830"
+  ],
+  "bgs": [
+    "0xF0D8F0",
+    "0xF0D8FF",
+    "0xC0F0D8",
+    "0xF0F0C0",
+    "0xD8F0C0",
+    "0xD8C0F0",
+    "0xD8C0D8",
+    "0xC0D8C0",
+    "0xF0D8D8",
+    "0xF0C0C0",
+    "0xC0C0F0",
+    "0xD8D8FF"
+  ],
+  "rotate": 20,
+  "num": 6,
+  "dot": 0,
+  "curve": 4,
+  "width": 200,
+  "height": 60,
+  "offset_ver": 10,
+  "offset_hor": 8,
+  "outline_color": ""
+}

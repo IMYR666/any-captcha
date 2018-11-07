@@ -1,0 +1,30 @@
+{
+  "texts": [
+    "0123456789"
+  ],
+  "fonts": [
+    "resources/font/CalibriL.ttf"
+  ],
+  "sizes": [
+    28
+  ],
+  "colors": [
+    "0xff0000"
+  ],
+  "bgs": [
+    "0xfef6f6",
+    "0xfefdf9"
+  ],
+  "rotate": 0,
+  "num": 11,
+  "dot": 0,
+  "curve": 0,
+  "width": 167,
+  "height": 35,
+  "align": 1,
+  "offset_ver": 0,
+  "offset_hor": 0,
+  "char_tran": [
+    5.97
+  ]
+}
