@@ -1,5 +1,5 @@
 # any-captcha
-
+generate any type of captcha with one config.
 一套配置，一行代码，快速生成任意风格验证码。
 
 ## 功能简述
