@@ -68,7 +68,7 @@ def main():
         demo_config = json.load(fp)
 
     demo_factory = CaptchaFactory(char_custom_fns=[char_custom_fn], bg_custom_fns=[bg_custom_fn], **demo_config)
-    index = 10
+    index = 3
     while index:
         # text = generate_phone_number(index)
         text = generate_mobile_number(index)

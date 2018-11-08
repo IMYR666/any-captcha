@@ -51,6 +51,7 @@
   "curve": 4,
   "width": 200,
   "height": 60,
+  "align": 2,
   "offset_ver": 10,
   "offset_hor": 8,
   "outline_color": ""

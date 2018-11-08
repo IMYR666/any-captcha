@@ -37,6 +37,7 @@
   "curve": 0,
   "width": 85,
   "height": 26,
+  "align": 2,
   "offset_ver": 5,
   "offset_hor": 4,
   "char_tran": [
