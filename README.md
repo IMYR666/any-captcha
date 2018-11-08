@@ -135,9 +135,9 @@ def main():
 
 原始验证码 | 生成验证码     
 | :-----: | :-----: |    
+| ![jd_o](resources/markdown/jd.jpg) | ![jd_g](resources/markdown/9nEL.jpg) |  
 | ![58_o](resources/markdown/58.gif) | ![58_g](resources/markdown/138-13049954.jpg) |  
 | ![icp_o](resources/markdown/icp.jpg) | ![icp_g](resources/markdown/6NJ6FU.jpg) |  
-| ![jd_o](resources/markdown/jd.jpg) | ![jd_g](resources/markdown/9nEL.jpg) |  
 | ![jd_o](resources/markdown/jy_o.jpg) | ![jd_g](resources/markdown/jy_g.jpg) |  
 
 ## 高级功能
