@@ -1,0 +1,33 @@
+{
+  "texts": [
+    "resources/corpus/common_chinese.txt"
+  ],
+  "fonts": [
+    "resources/font/PingFang_A.ttf",
+    "resources/font/STXINWEI.TTF"
+  ],
+  "sizes": [
+    38,40,42
+  ],
+  "colors": [
+    "0x32678b",
+    "0xe61514",
+    "0x3e0ac3"
+  ],
+  "bgs": [
+    "0xfef6f6",
+    "resources/background/color.jpg"
+  ],
+  "rotate": 30,
+  "num": 4,
+  "dot": 0,
+  "curve": 0,
+  "width": 200,
+  "height": 60,
+  "align": 2,
+  "offset_ver": 5,
+  "offset_hor": 6,
+  "char_tran": [
+    5.97
+  ]
+}
