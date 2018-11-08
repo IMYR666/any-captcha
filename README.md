@@ -49,7 +49,7 @@ any-captcha
 * <code>num</code>:  整型， 验证码显示的字符个数，具体参见<code>texts</code>参数。   
   
 * <code>dot</code>:  整型，验证码中随机噪点的个数，默认（0）不显示噪点，如果有特定噪点需求，
-推荐使用<code>CaptchaFactory.generate_captcha()</code>中的<code>bg_custom_fns</code>参数自定义。  
+推荐使用<code>CaptchaFactory</code>中的<code>bg_custom_fns</code>参数自定义。  
   
 * <code>curve</code>: 整型，验证码中随机干扰线的个数，默认（0）不显示干扰线，如有特殊需求同<code>dot</code>。  
   
