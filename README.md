@@ -179,5 +179,8 @@ char_pos = captcha.char_pos
             # y = (y + h / 2) * 1.0 / height
 ```
 ## TODO  
-
+* 新增配置项char_times:保证语料库中每个字符至少出现char_times次  
+* 配置项的颜色格式改为：#ffffff
+* 新增分析原始验证码中前景背景色分布的功能
+* 支持多线程生成验证码
 
