@@ -5,9 +5,6 @@ target captcha url: http://www.miitbeian.gov.cn/getVerifyCode?4
 """
 import json
 
-from PIL import Image
-from PIL import ImageFilter
-
 from model.capthafactory import CaptchaFactory
 
 
