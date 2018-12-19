@@ -67,11 +67,11 @@ any-captcha
 * <code>char_tran</code>:  浮点型数组，验证码中字符可选的透明度集合，单个元素取值范围[0.0,100.0]。    
 
 <p>*注：以上参数都可以被<code>CaptchaFactory.generate_captcha()</code>方法中的相关参数覆盖，即可以动态指
-定每一个参数，适用于需要遍历所有字符的情况。</p>
+定每一个参数。</p>
    
 
 ## 样例代码
-### 目标验证码：http://www.58guakao.com/user/487549.html
+
 ### config:
 ```json
 {
@@ -163,7 +163,7 @@ def bg_custom_fn(bg):
 详细代码见<code>jingdong_factory.py</code>.
 ### 字符位置：  
 可以通过<code>Captcha.char_pos()</code>方法获取单个字符在验证码中的位置信息，返回一个四元组(x,y,w,h)，
-分别表示左上角x坐标,y坐标,宽,高，适用于物体检测，文字定位等问题。  
+分别表示左上角x坐标,y坐标,宽,高，适用于物体检测，文字定位等问题，配合YOLO使用。  
 样例：
 ```python
 captcha = demo_factory.generate_captcha()
@@ -182,4 +182,5 @@ char_pos = captcha.char_pos
 * 配置项的颜色格式改为：#ffffff
 * 新增分析原始验证码中前景背景色分布的功能
 * 支持多线程生成验证码
+* 新增常用图像处理方法
 
