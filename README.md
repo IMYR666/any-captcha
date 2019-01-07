@@ -168,14 +168,14 @@ def bg_custom_fn(bg):
 ```python
 captcha = demo_factory.generate_captcha()
 char_pos = captcha.char_pos
-    width = captcha.width
-    height = captcha.height
-    with open(os.path.join(output_path, txt_out), "w", encoding="utf-8") as fp:
-        for pos in char_pos:
-            x, y, w, h = pos
-            # 转化为中心点的坐标
-            # x = (x + w / 2) * 1.0 / width
-            # y = (y + h / 2) * 1.0 / height
+width = captcha.width
+height = captcha.height
+with open(os.path.join(output_path, txt_out), "w", encoding="utf-8") as fp:
+    for pos in char_pos:
+        x, y, w, h = pos
+        # 转化为中心点的坐标
+        # x = (x + w / 2) * 1.0 / width
+        # y = (y + h / 2) * 1.0 / height
 ```
 ## TODO  
 * 新增配置项char_times:保证语料库中每个字符至少出现char_times次  
